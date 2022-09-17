@@ -5,7 +5,7 @@
 * Using HTML , CSS , JAVASCRIPT
 
 ***
-- Content and Requirements
+- Content and Requirements (中文)
 
 
 > 1、【内容】
