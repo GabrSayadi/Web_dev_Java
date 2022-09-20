@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>ShopHub</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar f-class">
+            <div class="name-logo f-class f-w poit">
+                <img src="../img/logo.png" alt="logo-img">
+                <h1>ShopHub</h1>
+            </div>
+            <div class="nav-bar-list  f-class li-st-no f-w poit">
+                <li class="home">Home</li>
+                <li class="connect-us">Connect Us</li>
+                <li class="about">About</li>
+            </div>
+            <div class="profile-setting f-class li-st-no f-w poit">
+                <li class="setting-icon"><img class="img-st" src="../img/setting-img.png" alt=""></li>
+                <div class="profile-info f-class">
+                    <li class="name">Shop Hub</li>
+                    <li><img class="img-st" src="../img/profile-img.png" alt="profile-img"></li>
+                </div>
+            </div>
+        </div>
+        <div class="main f-class">
+            <div class="product-container f-class">
+                <div class="product-box f-class sp-bet">
+                    
+                </div>
+            </div>
+            <div class="menu-container">
+                <h2 class="menu-title ">Menu:</h2>
+                <div class="btu-container f-class">
+                    <button class="programming-lang btu-st" onclick="showProduct('programming-lang')">Programming language</button>
+                    <button class="foods btu-st" onclick="showProduct('foods')">Foods</button>
+                    <button class="books btu-st" onclick="showProduct('books')">Books</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer f-class">
+            <span class="copy-rigth">&copy; 2022</span>
+            <button class="sign-up btu-st f-w poit" id="sign-up-btu" onclick="signUpfun()">Sign Up</button>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>

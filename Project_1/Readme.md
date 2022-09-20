@@ -1,16 +1,15 @@
 # Project 1
 
-- Project one is simple procdet and sign in pages 
+- Project one is simple procdet and sign up pages 
 
 * Using HTML , CSS , JAVASCRIPT
 
 ***
 - Content and Requirements (中文)
+ 
+* online shopping and sign up static pages (编写多个静态网页，在线商品选购的网页)
 
-
-> 1、【内容】
-
-* 编写多个静态网页，在线商品选购的网页
+> 1、内容 : Content: 
 
       主页分上、中、下三部分：
 
@@ -21,8 +20,6 @@
       下面显示页面的版权信息，和一个注册链接，点击注册，显示一个注册页面，可以输入用户名，密码，单选框勾选性别、下拉框显示几个职业供选择（常用职业和一个其他选项）
 
 
-> 2、【要求】：
+> 2、要求：Requirements: 
 
     Html编写内容 Css负责格式和布局 注册页面用html表单
-
-   
