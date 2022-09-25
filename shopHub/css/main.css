@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 /*  body static style */
@@ -26,7 +27,7 @@ body {
 /*
     global classes
 */
-.f-class {   
+.f-class {
     display: flex;
     align-items: center;
 }
@@ -62,8 +63,13 @@ body {
     gap: 5px;
 }
 
+.p-8 {
+    padding: 8px;
+}
+
+
 /*
-navbar style 
+navbar style
 */
 
 .nav-bar {
@@ -117,13 +123,13 @@ navbar style
 .main-price {
     margin-left: -51px;
 }
-.type , 
+.type ,
 .price {
     margin-left: 20px;
     color: var(--btu--color);
 }
-/* 
-    button menu style 
+/*
+    button menu style
 */
 .menu-container {
     text-align: center;
@@ -149,8 +155,8 @@ navbar style
     gap: 20px;
 }
 
-/* 
-    sign up style 
+/*
+    sign up style
 */
 .sign-up-container {
     width: 40%;
@@ -170,7 +176,7 @@ navbar style
     flex-direction: column;
     gap: 20px;
 }
-.user-name input , 
+.user-name input ,
 .password input {
     height: 21px;
     border-radius: 4px;
@@ -184,7 +190,3 @@ navbar style
 .submit-data {
     justify-content: center;
 }
-
-
-
-

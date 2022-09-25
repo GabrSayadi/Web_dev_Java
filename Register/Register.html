@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign to ShopHub</title>
+  <link rel="stylesheet" href="https://github.com/GabrSayadi/Web_dev_Java_university/blob/main/Project_1/css/main.css">
+</head>
+<body>
+<div class="sign-up-container f-class">
+  <div class="name-logo f-class sing-up-name-logo">
+    <img src="https://github.com/GabrSayadi/Web_dev_Java_university/blob/main/Project_1/img/logo.png" alt="logo-img">
+    <h1>ShopHub</h1>
+  </div>
+  <div class="form-con f-class">
+    <form action="Register" method="post">
+      <div class="user-name f-class colum">
+        <label>User name:</label>
+        <input class="p-8" type="text" name="username" required >
+      </div>
+      <div class="password f-class colum">
+        <label>Password:</label>
+        <input class="p-8" type="password"  name="password" required >
+      </div>
+      <div class="gender f-class">
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+      </div>
+      <div class="job f-class">
+        <label>Job:</label>
+        <select name="job">
+          <option value="architect">Architect</option>
+          <option value="teacher">Teacher</option>
+          <option value="accountant">Accountant</option>
+          <option value="ist">Ist</option>
+          <option value="PM">Project Manager</option>
+          <option value="SE">Software Engineer</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      <div class="submit-data f-class">
+        <button type="submit" class="btu-st">Sign Up</button>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="../js/main.js"></script>
+</body>
+</html>
