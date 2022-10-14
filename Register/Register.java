@@ -17,7 +17,12 @@ public class Register extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse rep) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse rep)
+            throws ServletException, IOException {
+
+    }
+
+    void printOut(HttpServletRequest req, HttpServletResponse rep) throws ServletException, IOException {
 
         req.setCharacterEncoding("UTF-8");
 
@@ -27,14 +32,17 @@ public class Register extends HttpServlet {
         List<String> genders = new ArrayList<>();
         List<String> jobs = new ArrayList<>();
 
+        // RESPONSE
+        rep.setContentType("text/html; charset = UTF-8");
+
         // GET USERS INFO VARIABLES
-        String userName = req.getParameter("username");
+        String username = req.getParameter("username");
         String password = req.getParameter("password");
         String gender = req.getParameter("gender");
         String job = req.getParameter("job");
 
         // STORAGE USERS INFO TO DATA STRUCTURE
-        usersNames.add(userName);
+        usersNames.add(username);
         passwords.add(password);
         if (gender == null) {
             genders.add("Unknown");
@@ -42,9 +50,6 @@ public class Register extends HttpServlet {
             genders.add(gender);
         }
         jobs.add(job);
-
-        // RESPONSE
-        rep.setContentType("text/html; charset = UTF-8");
 
         PrintWriter show = rep.getWriter();
 
